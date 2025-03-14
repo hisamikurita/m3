@@ -1,3 +1,4 @@
+/// <reference types="vite/types/importMeta.d.ts" />
 // entry point
 // include your assets here
 
@@ -8,7 +9,7 @@ import "./scss/app.scss";
 import "./ts/app";
 
 // get svg
-import.meta.globEager("./svg-sprite/*.svg");
+import.meta.glob("./svg-sprite/*.svg");
 
 // get images
 import.meta.glob(["./images/**"]);
