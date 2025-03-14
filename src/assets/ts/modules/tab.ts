@@ -19,5 +19,6 @@ export const tab = () => {
       // add
       targetContent?.classList.add("is-active");
       targetBtn?.classList.add("is-active");
-    });
+    })
+	});
 };
